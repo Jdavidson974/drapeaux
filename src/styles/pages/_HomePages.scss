@@ -1,5 +1,10 @@
-.app {
+.homePage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
     header {
+        width: 100%;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -9,4 +14,8 @@
             height: 50px;
         }
     }
+}
+
+.flag-container {
+    display: contents;
 }
